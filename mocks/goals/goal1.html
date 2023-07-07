@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <link rel="stylesheet" href="goals.css">
+    <script src="goal1.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="container-heading">
+            <h1>Goal Interface</h1>
+        </div>
+     <div id="goal-container">
+        <form action="" class="form-repeat" id="myForm" method="post">
+            <div id="goal-details">
+                <div id="gaol-delete-button">
+                    <button class="delete-goal"id="delete-button" >&#10006</button>
+                </div>
+                <div class="goal-inputs">
+                    <div class="gaol-title">
+                        <input type="text" id="title" pattern="/^[A-Za-z]+$/" name="title" required placeholder="Type a goal title here">
+                    </div>
+                    <div class="goal-description">
+                        <input type="text" id="description" pattern="/^[A-Za-z0-9]+$/" name="description" required
+                            placeholder="type a goal description here">
+                    </div>
+                </div>
+            </div>          
+        </form>
+        <button id="add-button" >Add a New Goal</button>
+        <button id="save-goal" class="save">Save</button>
+
+       
+    </div>
+    <div class="data-table">
+        <table id="table">
+            <tr>
+                <th class="col">Goal Title</th>
+                <th class="col">Goal Description</th>
+            </tr>
+        </table>
+    </div>
+
+</div>
+</body>
+</html>

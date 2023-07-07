@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px;
+}
+
+.container-heading h1 {
+    text-align: center;
+    line-height: 60px;
+    word-spacing: 3px;
+}
+#goal-container {
+    margin: 0px auto;
+    width: 270px;
+    border: 2px solid lightblue;
+    box-shadow: 3px 3px 10px black;
+    padding: 20px;
+}
+#goal-details {
+    display: flex;
+}
+.goal-inputs input {
+    width: 100%;
+    line-height: 30px;
+    margin: 8px;
+}
+
+.delete-goal {
+    position: relative;
+    top: 8px;
+    padding: 4px 6px;
+    border: none;
+    font-size: 16px;
+    font-weight:bolder;
+    background-color: white;
+}
+.save  {
+    padding: 3px 10px;
+    background-color:cadetblue;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    left:30px;
+    color:#eee;
+    font-size: 15px;
+    position: relative;
+    font-weight: bold;
+}
+
+#add-button {
+    padding: 3px 10px;
+    border-radius: 3px;
+    background-color: orange;
+    border: 2px solid transparent;
+    margin-top: 10px;
+    color:#eee;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.data-table {
+    margin: 40px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.data-table{
+    width: 80%;
+    margin: 30px auto;
+}

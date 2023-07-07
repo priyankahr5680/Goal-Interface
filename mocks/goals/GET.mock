@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+{
+  "status": "success",
+  "data": [
+    {
+      "id":1,
+      "title": "Goal one",
+      "description": "First goal's description"
+    },
+    {
+      "id":2,
+      "title": "Goal two",
+      "description": "Second goal's description"
+    }
+  ],
+  "message": null
+}

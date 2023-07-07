@@ -1,0 +1,15 @@
+{
+    "status": "success",
+    "data": [
+      {
+        "title": "Goal one",
+        "description": "First goal's description"
+      },
+      {
+        "title": "Goal two",
+        "description": "Second goal's description"
+      }
+    ],
+    "message": null
+  }
+  
